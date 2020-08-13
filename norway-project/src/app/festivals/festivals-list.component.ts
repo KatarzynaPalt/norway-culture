@@ -4,7 +4,9 @@ import {Component} from '@angular/core';
   selector:'festivals-list',
   templateUrl: 'festivals-list.component.html',
   styles:[`
-    h1{font-size:64px;}
+    h1{font-size:64px; background-color: rgba(255,0,0,0.7); text-align: center; padding: 60px;
+    margin:0; color:white;}
+    h2{font-size: 40px;}
   `]
 })
 
